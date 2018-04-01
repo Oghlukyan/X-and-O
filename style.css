@@ -1,0 +1,40 @@
+.field {
+    background: #4682b4;
+    float:left;
+    position: relative;
+    width: 15%;
+    padding-bottom : 15%; /* = width for a 1:1 aspect ratio */
+    margin: 0.2%;
+    overflow: hidden;
+}
+
+.field:hover {
+    background: #55a1e0;
+}
+
+.field:active {
+    background: #346d9e;
+}
+
+.content {
+    position:absolute;
+    height:100%; /* = 100% - 2*10% padding */
+    width:100%; /* = 100% - 2*5% padding */
+    padding: 10% 5%;
+    text-align: center;
+}
+
+.table{
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.table-cell{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+    font-weight: 900;
+    font-size: 100px;
+}
