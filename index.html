@@ -13,109 +13,21 @@
 
         <!--Grid-->
         <div class="container">
-            <div class="row">
-                <div id="00" class="field">
-                    <div class="content">
-                        <div class="table">
-                            <div id="00text" class="table-cell">
-                            </div>
-                        </div>
+            <div id="menu_container" class="row">
+                <div class="menu border">
+                    <div id="replay" class="content" onclick="replay()">
+                        R
                     </div>
                 </div>
-                <div id="01" class="field">
-                    <div class="content">
-                        <div class="table">
-                            <div id="01text" class="table-cell">
-                            </div>
-                        </div>
-                    </div>
+                <div class="menu border">
+                    <div id="status" class="content"></div>
                 </div>
-                <div id="02" class="field">
-                    <div class="content">
-                        <div class="table">
-                            <div id="02text" class="table-cell">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="replay" class="field ml-auto" onclick="replay()">
-                    <div class="content">
-                        <div class="table">
-                            <div class="table-cell">
-                                R
-                            </div>
-                        </div>
-                    </div>
+                <div class="menu border">
+                    <div id="you" class="content"></div>
                 </div>
             </div>
-            <div class="row">
-                <div id="10" class="field">
-                    <div class="content">
-                        <div class="table">
-                            <div id="10text" class="table-cell">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="11" class="field">
-                    <div class="content">
-                        <div class="table">
-                            <div id="11text" class="table-cell">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="12" class="field">
-                    <div class="content">
-                        <div class="table">
-                            <div id="12text" class="table-cell">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="field ml-auto">
-                    <div class="content">
-                        <div class="table">
-                            <div id="status" class="table-cell">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div id="20" class="field">
-                    <div class="content">
-                        <div class="table">
-                            <div id="20text" class="table-cell">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="21" class="field">
-                    <div class="content">
-                        <div class="table">
-                            <div id="21text" class="table-cell">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div id="22" class="field">
-                    <div class="content">
-                        <div class="table">
-                            <div id="22text" class="table-cell">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="field ml-auto">
-                    <div class="content">
-                        <div class="table">
-                            <div id="you" class="table-cell">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <table id="table_container" class="table">
+            </table>
         </div>
 
         <!--initial Modal-->
@@ -123,7 +35,11 @@
             <div class="modal-dialog modal-dialog-centered" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLongTitle">Choose your favorite</h5>
+                        <h5 class="modal-title" id="exampleModalLongTitle">Choose size and your favorite player</h5>
+                    </div>
+                    <div class="modal-body">
+                        <p id="error"></p>
+                        <input id="size" type="number" class="form-control" placeholder="Enter Table Size">
                     </div>
                     <div class="modal-footer">
                         <button id="x" type="button" class="btn btn-primary choose-buttons">X</button>
