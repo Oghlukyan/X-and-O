@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f20e4b22-82bb-4d91-ad06-41e95e8450d1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/script.js" afterPath="$PROJECT_DIR$/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="0">
+              <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -41,8 +39,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="429">
+              <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -51,16 +49,15 @@
       <file leaf-file-name="script.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="107">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state relative-caret-position="483">
+              <caret line="82" column="27" lean-forward="false" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
               <folding>
                 <element signature="n#!!block;n#startModal#0" expanded="false" />
                 <element signature="n#!!block;n#makeTable#0" expanded="false" />
-                <element signature="n#!!block;n#getDirection#0" expanded="false" />
                 <element signature="n#!!block;n#fieldClickListener#0" expanded="false" />
                 <element signature="n#!!block;n#randomField#0" expanded="false" />
+                <element signature="n#!!block;n#getDirection#0" expanded="false" />
                 <element signature="n#!!block;n#fill#0" expanded="false" />
-                <element signature="n#!!block;n#blockFilled#0" expanded="false" />
                 <element signature="n#!!block;n#checkIfFinished#0" expanded="false" />
                 <element signature="n#!!block;n#replay#0" expanded="false" />
               </folding>
@@ -96,6 +93,11 @@
       <find>css</find>
       <find>menu_container</find>
       <find>table_container</find>
+      <find>queue</find>
+      <find>'O'</find>
+      <find>'X'</find>
+      <find>finished</find>
+      <find>random</find>
     </findStrings>
     <replaceStrings>
       <replace>X</replace>
@@ -104,6 +106,7 @@
       <replace>status</replace>
       <replace>size</replace>
       <replace>j</replace>
+      <replace>difference</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -154,7 +157,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,12 +169,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
@@ -225,12 +228,15 @@
       <workItem from="1524170046188" duration="4749000" />
       <workItem from="1524305820239" duration="12365000" />
       <workItem from="1524342037503" duration="826000" />
-      <workItem from="1524345340100" duration="7573000" />
+      <workItem from="1524345340100" duration="8038000" />
+      <workItem from="1524442427318" duration="76000" />
+      <workItem from="1524527846033" duration="5781000" />
+      <workItem from="1524603718016" duration="14708000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110346000" />
+    <option name="totallyTimeSpent" value="131376000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -243,9 +249,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24212034" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25358167" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -293,7 +298,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="10" />
+      <option name="time" value="14" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -305,11 +310,10 @@
           <folding>
             <element signature="n#!!block;n#startModal#0" expanded="false" />
             <element signature="n#!!block;n#makeTable#0" expanded="false" />
-            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fieldClickListener#0" expanded="false" />
             <element signature="n#!!block;n#randomField#0" expanded="false" />
+            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fill#0" expanded="false" />
-            <element signature="n#!!block;n#blockFilled#0" expanded="false" />
             <element signature="n#!!block;n#checkIfFinished#0" expanded="false" />
             <element signature="n#!!block;n#replay#0" expanded="false" />
           </folding>
@@ -353,11 +357,10 @@
           <folding>
             <element signature="n#!!block;n#startModal#0" expanded="false" />
             <element signature="n#!!block;n#makeTable#0" expanded="false" />
-            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fieldClickListener#0" expanded="false" />
             <element signature="n#!!block;n#randomField#0" expanded="false" />
+            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fill#0" expanded="false" />
-            <element signature="n#!!block;n#blockFilled#0" expanded="false" />
             <element signature="n#!!block;n#checkIfFinished#0" expanded="false" />
             <element signature="n#!!block;n#replay#0" expanded="false" />
           </folding>
@@ -394,11 +397,10 @@
           <folding>
             <element signature="n#!!block;n#startModal#0" expanded="false" />
             <element signature="n#!!block;n#makeTable#0" expanded="false" />
-            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fieldClickListener#0" expanded="false" />
             <element signature="n#!!block;n#randomField#0" expanded="false" />
+            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fill#0" expanded="false" />
-            <element signature="n#!!block;n#blockFilled#0" expanded="false" />
             <element signature="n#!!block;n#checkIfFinished#0" expanded="false" />
             <element signature="n#!!block;n#replay#0" expanded="false" />
           </folding>
@@ -435,11 +437,10 @@
           <folding>
             <element signature="n#!!block;n#startModal#0" expanded="false" />
             <element signature="n#!!block;n#makeTable#0" expanded="false" />
-            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fieldClickListener#0" expanded="false" />
             <element signature="n#!!block;n#randomField#0" expanded="false" />
+            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fill#0" expanded="false" />
-            <element signature="n#!!block;n#blockFilled#0" expanded="false" />
             <element signature="n#!!block;n#checkIfFinished#0" expanded="false" />
             <element signature="n#!!block;n#replay#0" expanded="false" />
           </folding>
@@ -500,11 +501,10 @@
           <folding>
             <element signature="n#!!block;n#startModal#0" expanded="false" />
             <element signature="n#!!block;n#makeTable#0" expanded="false" />
-            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fieldClickListener#0" expanded="false" />
             <element signature="n#!!block;n#randomField#0" expanded="false" />
+            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fill#0" expanded="false" />
-            <element signature="n#!!block;n#blockFilled#0" expanded="false" />
             <element signature="n#!!block;n#checkIfFinished#0" expanded="false" />
             <element signature="n#!!block;n#replay#0" expanded="false" />
           </folding>
@@ -519,11 +519,10 @@
           <folding>
             <element signature="n#!!block;n#startModal#0" expanded="false" />
             <element signature="n#!!block;n#makeTable#0" expanded="false" />
-            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fieldClickListener#0" expanded="false" />
             <element signature="n#!!block;n#randomField#0" expanded="false" />
+            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fill#0" expanded="false" />
-            <element signature="n#!!block;n#blockFilled#0" expanded="false" />
             <element signature="n#!!block;n#checkIfFinished#0" expanded="false" />
             <element signature="n#!!block;n#replay#0" expanded="false" />
           </folding>
@@ -559,11 +558,10 @@
           <folding>
             <element signature="n#!!block;n#startModal#0" expanded="false" />
             <element signature="n#!!block;n#makeTable#0" expanded="false" />
-            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fieldClickListener#0" expanded="false" />
             <element signature="n#!!block;n#randomField#0" expanded="false" />
+            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fill#0" expanded="false" />
-            <element signature="n#!!block;n#blockFilled#0" expanded="false" />
             <element signature="n#!!block;n#checkIfFinished#0" expanded="false" />
             <element signature="n#!!block;n#replay#0" expanded="false" />
           </folding>
@@ -578,11 +576,10 @@
           <folding>
             <element signature="n#!!block;n#startModal#0" expanded="false" />
             <element signature="n#!!block;n#makeTable#0" expanded="false" />
-            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fieldClickListener#0" expanded="false" />
             <element signature="n#!!block;n#randomField#0" expanded="false" />
+            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fill#0" expanded="false" />
-            <element signature="n#!!block;n#blockFilled#0" expanded="false" />
             <element signature="n#!!block;n#checkIfFinished#0" expanded="false" />
             <element signature="n#!!block;n#replay#0" expanded="false" />
           </folding>
@@ -619,11 +616,10 @@
           <folding>
             <element signature="n#!!block;n#startModal#0" expanded="false" />
             <element signature="n#!!block;n#makeTable#0" expanded="false" />
-            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fieldClickListener#0" expanded="false" />
             <element signature="n#!!block;n#randomField#0" expanded="false" />
+            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fill#0" expanded="false" />
-            <element signature="n#!!block;n#blockFilled#0" expanded="false" />
             <element signature="n#!!block;n#checkIfFinished#0" expanded="false" />
             <element signature="n#!!block;n#replay#0" expanded="false" />
           </folding>
@@ -637,11 +633,10 @@
           <folding>
             <element signature="n#!!block;n#startModal#0" expanded="false" />
             <element signature="n#!!block;n#makeTable#0" expanded="false" />
-            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fieldClickListener#0" expanded="false" />
             <element signature="n#!!block;n#randomField#0" expanded="false" />
+            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fill#0" expanded="false" />
-            <element signature="n#!!block;n#blockFilled#0" expanded="false" />
             <element signature="n#!!block;n#checkIfFinished#0" expanded="false" />
             <element signature="n#!!block;n#replay#0" expanded="false" />
           </folding>
@@ -677,11 +672,10 @@
           <folding>
             <element signature="n#!!block;n#startModal#0" expanded="false" />
             <element signature="n#!!block;n#makeTable#0" expanded="false" />
-            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fieldClickListener#0" expanded="false" />
             <element signature="n#!!block;n#randomField#0" expanded="false" />
+            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fill#0" expanded="false" />
-            <element signature="n#!!block;n#blockFilled#0" expanded="false" />
             <element signature="n#!!block;n#checkIfFinished#0" expanded="false" />
             <element signature="n#!!block;n#replay#0" expanded="false" />
           </folding>
@@ -710,11 +704,10 @@
           <folding>
             <element signature="n#!!block;n#startModal#0" expanded="false" />
             <element signature="n#!!block;n#makeTable#0" expanded="false" />
-            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fieldClickListener#0" expanded="false" />
             <element signature="n#!!block;n#randomField#0" expanded="false" />
+            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fill#0" expanded="false" />
-            <element signature="n#!!block;n#blockFilled#0" expanded="false" />
             <element signature="n#!!block;n#checkIfFinished#0" expanded="false" />
             <element signature="n#!!block;n#replay#0" expanded="false" />
           </folding>
@@ -735,11 +728,10 @@
           <folding>
             <element signature="n#!!block;n#startModal#0" expanded="false" />
             <element signature="n#!!block;n#makeTable#0" expanded="false" />
-            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fieldClickListener#0" expanded="false" />
             <element signature="n#!!block;n#randomField#0" expanded="false" />
+            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fill#0" expanded="false" />
-            <element signature="n#!!block;n#blockFilled#0" expanded="false" />
             <element signature="n#!!block;n#checkIfFinished#0" expanded="false" />
             <element signature="n#!!block;n#replay#0" expanded="false" />
           </folding>
@@ -747,10 +739,18 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/new.js" />
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="0">
+          <caret line="0" column="15" lean-forward="true" selection-start-line="0" selection-start-column="15" selection-end-line="0" selection-end-column="15" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -761,26 +761,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="14" lean-forward="false" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="483">
+          <caret line="82" column="27" lean-forward="false" selection-start-line="82" selection-start-column="27" selection-end-line="82" selection-end-column="27" />
           <folding>
             <element signature="n#!!block;n#startModal#0" expanded="false" />
             <element signature="n#!!block;n#makeTable#0" expanded="false" />
-            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fieldClickListener#0" expanded="false" />
             <element signature="n#!!block;n#randomField#0" expanded="false" />
+            <element signature="n#!!block;n#getDirection#0" expanded="false" />
             <element signature="n#!!block;n#fill#0" expanded="false" />
-            <element signature="n#!!block;n#blockFilled#0" expanded="false" />
             <element signature="n#!!block;n#checkIfFinished#0" expanded="false" />
             <element signature="n#!!block;n#replay#0" expanded="false" />
           </folding>
