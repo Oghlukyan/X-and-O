@@ -103,7 +103,6 @@ function checkIfFinished(row, column) {
     var status = myQueue ? 'W' : 'L';
     var current = queue ? 'X' : 'O';
     var check;
-    // lines
     // horizontal line
     check = true;
     for (var i = 0; i < size; i++)
@@ -127,39 +126,29 @@ function checkIfFinished(row, column) {
         return status;
     }
     // diagonals
-    var left, right;
-    var currentRow, currentColumn;
-    // main diagonal
-    if (!(row === 0 && column === size-1)  && !(row === size-1 && column === 0)) {
-        check = true;
-        left = (row < column) ? (row) : (column);
-        right = (size - row < size - column) ? (size - row) : (size - column);
-        for (i = -left; i < right; i++)
-            if (table[row + i][column + i] !== current)
+    check = true;
+    if (row === column) {
+        for (i = 0; i < size; i++)
+            if (table[i][i] !== table[0][0])
                 check = false;
         if (check) {
-            for (i = -left; i < right; i++) {
-                currentRow = row + i;
-                currentColumn = column + i;
-                $('#' + currentRow + '\\.' + currentColumn).css('color', color);
-            }
+            for (i = 0; i < size; i++)
+                $('#' + i + '\\.' + i).css('color', color);
             finished = true;
             return status;
         }
     }
     // opposite diagonal
-    if (!(row === 0 && column === 0) && !(row === size-1 && column === size-1)) {
-        check = true;
-        left = (size-1 - row < column) ? (size-1 - row) : (column);
-        right = (row+1 < size - column) ? (row+1) : (size - column);
-        for (i = -left; i < right; i++)
-            if (table[row - i][column + i] !== current)
+    check = true;
+    if (row + column === size - 1) {
+        for (i = 0; i < size; i++)
+            if (table[i][size - 1 - i] !== table[0][size - 1])
                 check = false;
         if (check) {
-            for (i = -left; i < right; i++) {
-                currentRow = row - i;
-                currentColumn = column + i;
-                $('#' + currentRow + '\\.' + currentColumn).css('color', color);
+            var j;
+            for (i = 0; i < size; i++) {
+                j = size - 1 - i;
+                $('#' + i + '\\.' + j).css('color', color);
             }
             finished = true;
             return status;
